@@ -2,6 +2,8 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 from tkcalendar import DateEntry
+import threading
+from gigachat_integration import generate_task_description
 
 class TaskManagerApp:
     def __init__(self, root):
